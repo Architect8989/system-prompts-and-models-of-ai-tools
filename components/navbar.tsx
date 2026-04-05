@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useState, useEffect } from "react"
-import { Menu, X, ArrowUpRight, Sparkles } from "lucide-react"
+import { Menu, X, ArrowUpRight, Sparkles, Github } from "lucide-react"
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
